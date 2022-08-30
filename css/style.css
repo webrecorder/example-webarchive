@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 25px auto 25px auto;
+  max-width: 1200px;
+  font-size: 16pt;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;
+}
+
+body a {
+  color: green;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h1 {
+  text-align: center;
+}
+    
+section.description {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  text-align: left;
+}
+
+section.web-archive {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  height: 700px;
+  border: thin solid #ddd;
+}
+
+@media(prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white;
+  }
+  a {
+    color: #33ff00;
+  }
+  a:hover {
+    color: #33ff00;
+  }
+}
+
