@@ -10,7 +10,6 @@ body {
 }
 
 body a {
-  color: green;
   font-weight: bold;
   text-decoration: none;
 }
@@ -51,10 +50,10 @@ section.web-archive {
     color: white;
   }
   a {
-    color: #33ff00;
+    color: deeppink;
   }
   a:hover {
-    color: #33ff00;
+    text-decoration: underline;
   }
 }
 
